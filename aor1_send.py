@@ -1,0 +1,45 @@
+import os, smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.image import MIMEImage
+
+SENDER_EMAIL = os.getenv("EMAIL_USERNAME")
+SENDER_PASSWORD = os.getenv("EMAIL_PASSWORD")
+SMTP_SERVER, SMTP_PORT = "smtp.gmail.com", 587
+RECEIVERS_FILE, IMAGE_PATH = "aor1_emails.md", "aor1.png"
+
+HTML_BODY = """
+<html><body>
+<p><img src="cid:embedded_image" style="width:300px;border-radius:10px;"></p>
+<p>AOR1 forum -> <a href="https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=139&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2020&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=">link</a></p>
+
+<p>Google form -> <a href="https://forms.gle/2XaMVYxLjiVikKCw5">link</a></p>
+</body></html>
+"""
+
+with open(RECEIVERS_FILE) as f:
+    recipients = [line.strip() for line in f if line.strip()]
+
+if recipients:
+    for to_email in recipients:
+        msg = MIMEMultipart("related")
+        msg["From"], msg["To"], msg["Subject"] = "Elfak bot", to_email, "🎓 AOR1"
+        alt = MIMEMultipart("alternative")
+        msg.attach(alt)
+        alt.attach(MIMEText(HTML_BODY, "html"))
+
+        try:
+            with open(IMAGE_PATH, "rb") as img:
+                mime_img = MIMEImage(img.read())
+                mime_img.add_header("Content-ID", "<embedded_image>")
+                msg.attach(mime_img)
+        except FileNotFoundError:
+            pass
+
+        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
+            server.starttls()
+            server.login(SENDER_EMAIL, SENDER_PASSWORD)
+            server.send_message(msg)
+            print(f"✅ Sent to {to_email}")
+else:
+    print("⚠️ No recipients found.")
