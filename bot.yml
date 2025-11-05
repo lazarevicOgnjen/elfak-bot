@@ -1,0 +1,141 @@
+name: elfak bot
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run main script
+        env:
+          MAIL: ${{ secrets.MAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+        run: |
+          python cs_elfak.py
+          python sip.py
+
+      - name: Check for real changes
+        id: changes
+        run: |
+          git add *.md
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit changes
+        if: steps.changes.outputs.changed == 'true'
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: Update markdown
+          file_pattern: "*.md"
+
+      - name: Detect per-file changes
+        id: detect
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          for f in bp.md sp.md pj.md oopj.md lp.md oop.md aor1.md dmat.md sip.md aip.md uur.md; do
+            if git diff --name-only HEAD~1 HEAD | grep -q $f; then
+              echo "${f%.md}_changed=true" >> $GITHUB_OUTPUT
+            else
+              echo "${f%.md}_changed=false" >> $GITHUB_OUTPUT
+            fi
+          done
+
+      - name: BP notification
+        if: steps.detect.outputs.bp_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python bp_send.py
+
+      - name: DMAT notification
+        if: steps.detect.outputs.dmat_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python dmat_send.py
+
+      - name: SP notification
+        if: steps.detect.outputs.sp_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python sp_send.py
+
+      - name: PJ notification
+        if: steps.detect.outputs.pj_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python pj_send.py
+
+      - name: OOPJ notification
+        if: steps.detect.outputs.oopj_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python oopj_send.py
+        
+      - name: LP notification
+        if: steps.detect.outputs.lp_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python lp_send.py
+
+      - name: OOP notification
+        if: steps.detect.outputs.oop_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python oop_send.py
+
+      - name: AOR1 notification
+        if: steps.detect.outputs.aor1_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python aor1_send.py
+        
+      - name: AIP notification
+        if: steps.detect.outputs.aip_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python aip_send.py
+
+      - name: UUR notification
+        if: steps.detect.outputs.uur_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python uur_send.py
+        
+      - name: SIP notification
+        if: steps.detect.outputs.sip_changed == 'true'
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python sip_send.py
