@@ -117,8 +117,8 @@ jobs:
       - name: AOR1 notification
         if: steps.detect.outputs.aor1_changed == 'true'
         env:
-          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          AOR1_MAIL: ${{ secrets.AOR1_MAIL }}
+          AOR1_PASS: ${{ secrets.AOR1_PASS }}
         run: python aor1_send.py
         
       - name: AIP notification
