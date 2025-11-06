@@ -28,13 +28,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run main script
+      - name: Run sip.py
+        run:
+          python sip.py
+
+      - name: Get current hour
+        id: time
+        run: |
+          CURRENT_HOUR=$(date +'%H')
+          echo "Current hour: $CURRENT_HOUR"
+          echo "current_hour=$CURRENT_HOUR" >> $GITHUB_OUTPUT
+
+      - name: Run cs_elfak.py (morning 6–8 or night 20–1)
+        if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour < 8) || (steps.time.outputs.current_hour >= 20 || steps.time.outputs.current_hour < 1) }}
         env:
           MAIL: ${{ secrets.MAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: |
-          python cs_elfak.py
-          python sip.py
+        run: python cs_elfak.py
 
       - name: Check for real changes
         id: changes
