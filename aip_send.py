@@ -3,8 +3,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 
-SENDER_EMAIL = os.getenv("AIP_MAIL")
-SENDER_PASSWORD = os.getenv("AIP_PASS")
+SENDER_EMAIL = os.getenv("BOT_MAIL")
+SENDER_PASSWORD = os.getenv("BOT_PASS")
 SMTP_SERVER, SMTP_PORT = "smtp.gmail.com", 587
 RECEIVERS_FILE, IMAGE_PATH = "aip_emails.md", "aip.png"
 
