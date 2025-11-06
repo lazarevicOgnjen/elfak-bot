@@ -1,4 +1,4 @@
-import os, smtplib
+import os, smtplib, time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
@@ -41,5 +41,7 @@ if recipients:
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             server.send_message(msg)
             print(f"✅ Sent to {to_email}")
+
+        time.sleep(1)
 else:
     print("⚠️ No recipients found.")
