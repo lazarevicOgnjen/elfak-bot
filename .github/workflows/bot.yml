@@ -124,8 +124,8 @@ jobs:
       - name: AIP notification
         if: steps.detect.outputs.aip_changed == 'true'
         env:
-          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          AIP_MAIL: ${{ secrets.AIP_MAIL }}
+          AIP_PASS: ${{ secrets.AIP_PASS }}
         run: python aip_send.py
 
       - name: UUR notification
