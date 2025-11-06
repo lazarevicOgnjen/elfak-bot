@@ -1,2 +1,0 @@
-# elfak-bot
-notifications
