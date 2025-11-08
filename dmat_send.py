@@ -9,7 +9,7 @@ SENDER_EMAIL = os.getenv("BOT_MAIL")
 SENDER_PASSWORD = os.getenv("BOT_PASS")
 SMTP_SERVER, SMTP_PORT = "smtp.gmail.com", 587
 TO_EMAIL = "" 
-IMAGE_PATH = "sip.png"
+IMAGE_PATH = "dmat.png"
 
 HTML_BODY = """
 <html><body>
