@@ -17,22 +17,19 @@ Kada kliknete na taj link, otvoriće se novi mejl. <br>
 
 # Grupe
 
-> **SIP**
-> 
-> [link](https://groups.google.com/u/1/g/sip-elfak/about)
+**Sve godine**
+- [SIP](https://groups.google.com/u/1/g/sip-elfak/about)
 <br>
 
-> **I godina**
-> 
-> [AIP](https://groups.google.com/u/1/g/aip-elfak/about)
+**I godina**
+- [AIP](https://groups.google.com/u/1/g/aip-elfak/about)
 <br>
 
-> **II godina**
-> 
-> [BP](https://groups.google.com/u/1/g/bp-elfak/about)
->
-> [OOP](https://groups.google.com/u/1/g/oop-elfak/about)
->
-> [PJ](https://groups.google.com/u/1/g/pj-elfak/about)
-> 
-> [SP](https://groups.google.com/u/1/g/sp-elfak/about)
+**II godina**
+- [BP](https://groups.google.com/u/1/g/bp-elfak/about)
+
+- [OOP](https://groups.google.com/u/1/g/oop-elfak/about)
+
+- [PJ](https://groups.google.com/u/1/g/pj-elfak/about)
+
+- [SP](https://groups.google.com/u/1/g/sp-elfak/about)
