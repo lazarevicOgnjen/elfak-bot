@@ -42,6 +42,7 @@ jobs:
       - name: Run cs_elfak.py (morning 6–8 or night 20–1)
         if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour < 8) || (steps.time.outputs.current_hour >= 20 || steps.time.outputs.current_hour < 1) }}
         env:
+          SAJT: ${{ secrets.SAJT }}
           MAIL: ${{ secrets.MAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: python cs_elfak.py
