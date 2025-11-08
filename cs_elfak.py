@@ -21,10 +21,10 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/login/index.php")
     time.sleep(2)
 
-    element1 = page_to_scrape.find_element(By.XPATH, "//*[@id="details-button"]")
+    element1 = page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]')
     if element1:
         element1.click()
-        page_to_scrape.find_element(By.XPATH, "//*[@id="proceed-link"]")
+        page_to_scrape.find_element(By.XPATH, '//*[@id="proceed-link"]')
         time.sleep(2)
     
     page_to_scrape.find_element(By.XPATH, "/html/body/div[2]/div[2]/div/div/section/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/a").click()
