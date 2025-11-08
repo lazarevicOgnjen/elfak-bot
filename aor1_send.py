@@ -22,7 +22,7 @@ HTML_BODY = """
 msg = MIMEMultipart("related")
 msg["From"] = SENDER_EMAIL
 msg["To"] = TO_EMAIL
-msg["Subject"] = "🎓 SIP"
+msg["Subject"] = "🎓 AOR1"
 
 alt = MIMEMultipart("alternative")
 msg.attach(alt)
