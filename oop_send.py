@@ -8,7 +8,7 @@ from email.mime.image import MIMEImage
 SENDER_EMAIL = os.getenv("BOT_MAIL")
 SENDER_PASSWORD = os.getenv("BOT_PASS")
 SMTP_SERVER, SMTP_PORT = "smtp.gmail.com", 587
-TO_EMAIL = ""
+TO_EMAIL = "oop-elfak@googlegroups.com"
 IMAGE_PATH = "oop.png"
 
 HTML_BODY = """
