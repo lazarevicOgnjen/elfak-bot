@@ -24,7 +24,7 @@ try:
     element1 = page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]')
     if element1:
         print("website not safe")
-    
+    else:
     page_to_scrape.find_element(By.XPATH, '/html/body/div[2]/div[2]/div/div/section/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/a').click()
     time.sleep(2)
     
