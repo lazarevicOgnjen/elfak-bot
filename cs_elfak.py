@@ -22,7 +22,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/login/index.php")
     time.sleep(2)
     
-    page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]'):
+    page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]')
         print("website not safe")
  except NoSuchElementException:
     try:
