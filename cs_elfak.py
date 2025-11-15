@@ -23,7 +23,7 @@ try:
     time.sleep(2)
     
     page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]')
-        print("website not safe")
+    print("website not safe")
  except NoSuchElementException:
     try:
         page_to_scrape.find_element(By.XPATH, '/html/body/div[2]/div[2]/div/div/section/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/a').click()
