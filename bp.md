@@ -1,6 +1,6 @@
 Advanced search...
 Forums
-Search results: 98
+Search results: 100
 1
 (current)
 2
@@ -14,6 +14,35 @@ Search results: 98
 10
 »
 Next page
+News forum -> Rezultati ispita - Oktobar 3 -> Odgovor: Rezultati ispita - Oktobar 3
+by Leonid Stoimenov - Friday, 14 November 2025, 5:32 PM
+U nastavku je pregled osvojenih poena i predlog ocena. Zbog probelam sa CS-om, šaljem ih ovako.
+
+Upis ocena je u ponedeljak, 17.11.25. u 9:00 u prostoriji M2-2.
+
+Radove možete da pogledate u istom terminu.
+
+Spisak studenata
+П1 (50) П2 (50) П1+П2 П (40%) Т1 (100) Т2 (100) Т1+Т2 Т (60%) Укупно Оцена
+17637 Лука Златковић 27 30 57 22.8 35 41 0 0 0  
+18288 Андрија Михајловић 40 17 0 0.0 42 55 97 0 0  
+19443 Филип Трајковић 40 25 65 26.0 34 38 0 0 0  
+19570 Матеја Вуковић 38 25 63 25.2 64 81 145 43.5 69 7
+19684 Бранко Јовановски 38 11 0 0.0 46 37 0 0 0  
+19738 Марко Миладиновић 35 36 71 28.4 71 36 0 0 0  
+19755 Ива Милосављевић 26 31 57 22.8 55 80 135 40.5 63 7
+19943 Софија Стефановић 37 23 60 24.0 54 40 94 0 0  
+20019 Нађа Стојановић 42 38 80 32.0 95 98 193 57.9 90 9
+
+Permalink
+Show parent
+See this post in context
+News forum -> Rezultati ispita - Oktobar 3
+by Leonid Stoimenov - Friday, 14 November 2025, 5:30 PM
+U prilogu su rezultati ispita za Okotbar 3.
+Rez OKT3.pdf
+Permalink
+See this post in context
 News forum -> Rezultati ispita - OKTOBAR 2 -> Pregled osvojenih poena i predlog ocena - OKTOBAR 2
 by Leonid Stoimenov - Tuesday, 4 November 2025, 10:32 AM
 U prilogu je pregled osvojenih poena i predlog ocena.
@@ -68,22 +97,6 @@ See this post in context
 News forum -> Резултати испита - СЕПТЕМБАР 2025 -> Odgovor: Резултати испита - СЕПТЕМБАР 2025
 by Leonid Stoimenov - Tuesday, 7 October 2025, 2:45 PM
 Уколико не гледате рад и сагласни сте са предлогом оцене, можете да дођете на упис у 9:30.
-Permalink
-Show parent
-See this post in context
-News forum -> Резултати испита - СЕПТЕМБАР 2025
-by Leonid Stoimenov - Friday, 3 October 2025, 5:58 PM
-У прилогу су резултати испита за испитни рок СЕПТЕМБАР.
-  Објавићу вам ускоро и коначан број освојених поена са урачунатим поенима из претходних рокова.
-Упис оцена је у уторак, 7.10.25. среду, 8.10.25. у 10:00 у просторији М2-2. 
-Радове можете да погледате у истом термину. 
-BP-septembar.pdf
-Permalink
-See this post in context
-News forum -> Резултати испита - СЕПТЕМБАР 2025 -> Преглед освојених поена и предлог оцена - СЕПТЕМБАР 2025
-by Leonid Stoimenov - Friday, 3 October 2025, 6:39 PM
-У прилогу је преглед освојених поена и предлог  оцена за студенте који су полагали неки део у испитном року СЕПТЕМБАР. 
-BP SEP 25 ocene.pdf
 Permalink
 Show parent
 See this post in context

@@ -1,6 +1,6 @@
 Advanced search...
 Forums
-Search results: 93
+Search results: 94
 1
 (current)
 2
@@ -14,6 +14,15 @@ Search results: 93
 10
 »
 Next page
+Обавештења -> Резултати усменог дела испита у испитном року октобар 3
+by Aleksandar Milenkovic - Friday, 14 November 2025, 2:10 PM
+Обавештење
+Резултати испита у испитном року октобар 3 објављени су на сајту предмета. 
+Преглед радова могућ је у термину уписа оцена (понедељак, 17.11.2025, 12 часова, лабораторија 533).
+
+
+Permalink
+See this post in context
 Обавештења -> Распоред полагања писаног дела испита у испитном року октобар 3
 by Anđelija Đorđević - Friday, 7 November 2025, 1:42 PM
 
@@ -70,14 +79,6 @@ Permalink
 See this post in context
 Обавештења -> Распоред полагања писаног дела испита у априлском испитном року
 by Anđelija Đorđević - Tuesday, 21 October 2025, 12:13 PM
-
-Permalink
-See this post in context
-Обавештења -> Резултати усменог дела испита у октобарском испитном року
-by Aleksandar Milenkovic - Friday, 17 October 2025, 4:35 PM
-Обавештење
-Резултати испита у октобарском испитном року објављени су на сајту предмета. 
-Преглед радова могућ је у термину уписа оцена.
 
 Permalink
 See this post in context

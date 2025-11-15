@@ -1,6 +1,6 @@
 Advanced search...
 Forums
-Search results: 92
+Search results: 93
 1
 (current)
 2
@@ -14,6 +14,13 @@ Search results: 92
 10
 »
 Next page
+Obaveštenja -> Резултати писменог дела испита (Октобар III 2025)
+by Vladan Mihajlović - Saturday, 15 November 2025, 3:07 PM
+Резултати писменог дела испита студената који су полагали испит из предмета Објектно оријентисано програмирање у року Октобар III наставне 2024/2025. године налазе се у прилогу овог обавештења.
+Усмени део испита ће бити у понедељак 17.11.2025. године од 9:00 у просторији Е1 (преиземље у новој ламели)
+OOP 2025 Okt III - Zadaci - Rezultati.pdf
+Permalink
+See this post in context
 Obaveštenja -> Obaveštenja Rezultati Oktobar 2 ispitnog roka - termin upisa ocene
 by Aleksandar Veljanovski - Tuesday, 4 November 2025, 2:36 PM
 U prilogu se nalaze rezultati Oktobar 2 ispitnog roka.
@@ -82,13 +89,6 @@ by Vladan Mihajlović - Thursday, 9 October 2025, 12:45 AM
 Резултати испита из предмета Објектно оријентисано програмирање у испитном року септембар наставне 2024/2025. године налазе се у прилогу овог обавештења.
 Упис оцена и преглед радова са усменог дела испита биће у петак 10.10.2025. године у 13:00 у просторији 533.
 OOP 2025 Sep - Rezultati.pdf
-Permalink
-See this post in context
-Obaveštenja -> Резултати писменог дела испита (Септембар 2025)
-by Vladan Mihajlović - Wednesday, 1 October 2025, 12:29 PM
-Резултати писменог дела испита студената који су полагали испит из предмета Објектно оријентисано програмирање у року септембар наставне 2024/2025. године налазе се у прилогу овог обавештења.
-Усмени део испита ће бити у петак 3.10.2025. године од 9:15 у просторији К4 (4. спрат у новој ламели).
-OOP 2025 Septembar - Pisani Rezultati.pdf
 Permalink
 See this post in context
 1

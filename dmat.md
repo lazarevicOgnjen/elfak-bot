@@ -1,12 +1,18 @@
 Advanced search...
 Forums
-Search results: 24
+Search results: 25
 1
 (current)
 2
 3
 »
 Next page
+News forum -> Rezultati DM oktobar 3 2025.
+by Stefan Stankov - Saturday, 15 November 2025, 1:10 AM
+Rezultati ispita iz predmeta Diskretna matematika u ispitnom roku oktobar 3 2025. godine nalaze se u prilogu.
+Rez_okt3_2025.pdf
+Permalink
+See this post in context
 News forum -> Rezultati DM oktobar - dodatno 2025.
 by Stefan Stankov - Tuesday, 28 October 2025, 10:05 AM
 Rezultati ispita iz predmeta Diskretna matematika u ispitnom roku oktobar - dodatno polaganje 2025. godine nalaze se u prilogu.
@@ -60,14 +66,6 @@ by Stefan Stankov - Saturday, 14 September 2024, 7:13 AM
 Rezultati ispita iz predmeta Diskretna matematika u oktobarskom ispitnom roku nalaze se u prilogu.
 
 DM-okt-2024.pdf
-Permalink
-See this post in context
-News forum -> Rezultati DM septembar 2024.
-by Stefan Stankov - Saturday, 24 August 2024, 5:11 AM
-Rezultati ispita iz predmeta Diskretna matematika u septembarskom ispitnom roku nalaze se u prilogu.
-
-
-DM-sept-2024.pdf
 Permalink
 See this post in context
 1
