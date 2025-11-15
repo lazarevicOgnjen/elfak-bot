@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import NoSuchElementException
 import time
 import os
 
@@ -21,9 +22,10 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/login/index.php")
     time.sleep(2)
     
-    if page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]'):
+    page_to_scrape.find_element(By.XPATH, '//*[@id="details-button"]'):
         print("website not safe")
-    else:
+ except NoSuchElementException:
+    try:
         page_to_scrape.find_element(By.XPATH, '/html/body/div[2]/div[2]/div/div/section/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/a').click()
         time.sleep(2)
     
