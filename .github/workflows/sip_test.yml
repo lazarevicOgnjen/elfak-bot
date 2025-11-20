@@ -1,4 +1,4 @@
-name: send_email
+name: sip + google group
 
 on:
   schedule:
