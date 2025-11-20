@@ -38,7 +38,7 @@ jobs:
 
           with smtplib.SMTP(os.getenv("SMTP_SERVER"), int(os.getenv("SMTP_PORT"))) as smtp:
               smtp.starttls()
-              smtp.login(os.getenv("MAIL_USER"), os.getenv("MAIL_PASS"))
+              smtp.login(os.getenv("BOT_MAIL"), os.getenv("BOT_PASS"))
               smtp.send_message(msg)
 
           print("✅ E-mail sent!")
