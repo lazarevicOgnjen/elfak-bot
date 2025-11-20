@@ -17,8 +17,8 @@ jobs:
         env:
           SMTP_SERVER: smtp.gmail.com
           SMTP_PORT:   587
-          MAIL_USER:   ${{ secrets.MAIL_USER }}  
-          MAIL_PASS:   ${{ secrets.MAIL_PASS }}
+          BOT_MAIL:   ${{ secrets.BOT_MAIL }}  
+          BOT_PASS:   ${{ secrets.BOT_PASS }}
           TO_EMAIL:    ${{ secrets.TO_EMAIL }} 
           SUBJECT:     "SIP prijava ispita"
           BODY_TEXT: |
