@@ -30,7 +30,7 @@ jobs:
           from email.message import EmailMessage
 
           msg = EmailMessage()
-          msg["From"]    = os.getenv("MAIL_USER")
+          msg["From"]    = os.getenv("BOT_MAIL")
           msg["To"]      = os.getenv("TO_EMAIL")
           msg["Subject"] = os.getenv("SUBJECT")
           msg.set_content(os.getenv("BODY_TEXT"))
