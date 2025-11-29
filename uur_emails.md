@@ -1,0 +1,1 @@
+uur-notifikacije@googlegroups.com
