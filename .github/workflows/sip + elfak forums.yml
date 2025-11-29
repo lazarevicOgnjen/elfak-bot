@@ -84,3 +84,10 @@ jobs:
           BOT_MAIL: ${{ secrets.BOT_MAIL }}
           BOT_PASS: ${{ secrets.BOT_PASS }}
         run: python sip_send.py
+
+      - name: UUR notification
+        if: steps.detect.outputs.uur_changed == 'true'
+        env:
+          BOT_MAIL: ${{ secrets.BOT_MAIL }}
+          BOT_PASS: ${{ secrets.BOT_PASS }}
+        run: python uur_send.py
