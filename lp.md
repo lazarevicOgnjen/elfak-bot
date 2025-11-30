@@ -1,11 +1,33 @@
 Advanced search...
 Forums
-Search results: 19
+Search results: 20
 1
 (current)
 2
 »
 Next page
+Obaveštenja -> Početak laboratorijskih vežbi 2025
+by Nenad Petrovic - Sunday, 30 November 2025, 7:22 AM
+Poštovani studenti,
+Kao što je najavaljeno već, od ponedeljka 1. decembra krećemo sa prvom laboratorijskom vežbom, na kojoj je cilj da se upoznate sa Model Sim okruženjem i pokrenete primer zadatog VHDL koda u simulatoru sa testbench-om.
+Uputstvo imate na CS stranici kursa: 
+https://cs.elfak.ni.ac.rs/nastava/pluginfile.php/45412/mod_resource/content/2/Upustvo%20za%20Intel%20ModelSim.pdf
+
+Laboratorijske vežbe se održavaju u sali R2 (265), sa početkom od 14.15 po završetku računskih vežbi.
+Podela po grupama preliminarno, pre konačnog spiska iz studentske službe:
+
+Grupa 1 od 14.15-15.45: Br. indeksa < 20230
+Grupa 2 od 15.45-17.15: 20230<=Br. indeksa<=20452 (od 20230 do 20452, uključujući i ta dva)
+Grupa 3 od 17.15-18.45: Svi ostali koji nisu na trenutnom spisku
+
+Spisak će biti dopunjen i korigovan narednih dana. Zadnja kolona predstavlja broj grupe.
+
+Pozdrav,
+Nenad Petrović
+
+LP 2025 spisak.pdf
+Permalink
+See this post in context
 Obaveštenja -> Nastavak laboratorijskih vežbi
 by Nenad Petrovic - Tuesday, 3 June 2025, 10:10 AM
 Поштоване колеге,
@@ -82,16 +104,6 @@ Ukoliko neko juče nije stigao da radi 5. vežbu zbog preklapanja sa AOR-om ili 
 Naknadno ću objaviti dodatne detalje o tom terminu nadoknade koji će biti sledeće nedelje.
 
 
-
-Permalink
-See this post in context
-Obaveštenja -> RV i LV 11.12.2023
-by Nenad Petrovic - Sunday, 10 December 2023, 4:56 PM
-Poštovani studenti,
-Za sada planiram da sutra držim i računske i poslednju laboratorijsku vežbu (5.). Računske bi počele od 12.30, a laboratorijske vežbe od 14.30. Studenti koji su propustili jendu vežbu pre toga, imaju mogućnost da je nadoknade takođe sutra (ukoliko bude bilo dovoljno mesta). Svakako, u planu je i jedan termin nadoknade nakon sutrašnjeg termina.
-
-Pozdrav,
-Nenad
 
 Permalink
 See this post in context
