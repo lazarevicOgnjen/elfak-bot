@@ -1,11 +1,21 @@
 Advanced search...
 Forums
-Search results: 20
+Search results: 21
 1
 (current)
 2
+3
 »
 Next page
+Obaveštenja -> Lab 2. termin 8/12/2025
+by Nenad Petrovic - Saturday, 6 December 2025, 8:25 AM
+Poštovani studenti,
+Kao što je već bilo najavaljeno drugi termin je u ponedeljak 8.12.2025 od 14.15, po istom rasporedu kao prethodni (uz manje individualne modifikacij i dodate studente za 3. grupu koji nisu bili na spisku na početu).
+Ovog puta dobijate nasumičan zadatak po uzoru na uvodni termin u VHDL, koji je potrebno da sami realizujete, i pokažete takođe u simulatoru njegovu funkcionalnost.
+Pozdrav,
+Nenad
+Permalink
+See this post in context
 Obaveštenja -> Početak laboratorijskih vežbi 2025
 by Nenad Petrovic - Sunday, 30 November 2025, 7:22 AM
 Poštovani studenti,
@@ -97,18 +107,9 @@ Molim studente da se jave ako nekome fali evidencija za vežbu, ogotovu za 5. Te
 LP nakon V vezbe.pdf
 Permalink
 See this post in context
-Obaveštenja -> Plan nadoknade lab vežbi
-by Nenad Petrovic - Tuesday, 12 December 2023, 8:39 AM
-Poštovani studenti, 
-Ukoliko neko juče nije stigao da radi 5. vežbu zbog preklapanja sa AOR-om ili nekog drugog razloga, neka mi se javi mailom, pa ćemo se individualno dogovoriti dalje. Osim toga, biće sledece nedelje organizovan i termin nadoknade, gde će studenti moći da nadoknade jednu bilo koju vežbu koja im fali (uključujući i petu, ako se ne jave do onda da to drugačije realizujemo).
-Naknadno ću objaviti dodatne detalje o tom terminu nadoknade koji će biti sledeće nedelje.
-
-
-
-Permalink
-See this post in context
 1
 (current)
 2
+3
 »
 Next page
