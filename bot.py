@@ -6,6 +6,8 @@ for url in WEBHOOK_URL:
     hook = Webhook(url)
     hook.send("""@everyone 
 
+Trenutna lista predmeta:
+
 sip - studentski informacioni centar
 
 I godina
