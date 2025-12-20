@@ -25,7 +25,7 @@ dmat - diskretna matematika
 lp - logicko projektovanje
 sp - strukture podataka
 
-II godina RI
+III godina RI
 
 os - operativno sistemi
 rm - racunarske mreze
