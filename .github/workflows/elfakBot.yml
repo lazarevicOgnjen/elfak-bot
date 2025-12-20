@@ -1,0 +1,222 @@
+name: elfak bot
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: checkout repository
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: setup Python environment
+      - name: setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 3: install system dependencies
+      - name: install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3
+
+      # Step 4: verify installations
+      - name: verify Chromium and Chromedriver installation
+        run: |
+          echo "Checking Chromium installation..."
+          google-chrome --version
+          which google-chrome
+
+          echo "Checking Chromedriver installation..."
+          chromedriver --version
+          which chromedriver
+
+      # Step 5: install Python dependencies
+      - name: install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Step 6: run scraping scripts
+      - name: run sip + cs
+        env:
+          mail: ${{ secrets.MAIL }}
+          password: ${{ secrets.PASSWORD }}
+        run: python sip.py | python cs.py
+
+      # Step 7: commit 
+      - name: sip changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update sip.md
+          file_pattern: sip.md
+        id: sip-commit
+
+      - name: uur changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update uur.md
+          file_pattern: uur.md
+        id: uur-commit
+
+      - name: aip changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update aip.md
+          file_pattern: aip.md
+        id: aip-commit
+
+      - name: bp changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update bp.md
+          file_pattern: bp.md
+        id: bp-commit
+
+      - name: oop changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update oop.md
+          file_pattern: oop.md
+        id: oop-commit
+
+      - name: oopj changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update oopj.md
+          file_pattern: oopj.md
+        id: oopj-commit
+
+      - name: lp changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update lp.md
+          file_pattern: lp.md
+        id: lp-commit
+
+      - name: sp changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update sp.md
+          file_pattern: sp.md
+        id: sp-commit
+
+      - name: dmat changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update dmat.md
+          file_pattern: dmat.md
+        id: dmat-commit
+
+      - name: pj changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update pj.md
+          file_pattern: pj.md
+        id: pj-commit
+
+      - name: rm changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update rm.md
+          file_pattern: rm.md
+        id: rm-commit
+
+      - name: ti changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update ti.md
+          file_pattern: ti.md
+        id: ti-commit
+
+      - name: os changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update os.md
+          file_pattern: os.md
+        id: os-commit
+
+     # discord bot
+      - name: sip notification
+        if: steps.sip-commit.outputs.changes_detected == 'true'
+        env:
+          sip: ${{ secrets.SIP }}
+        run: python sipDiscord.py
+
+      - name: uur notification
+        if: steps.uur-commit.outputs.changes_detected == 'true'
+        env:
+          uur: ${{ secrets.UUR }}
+        run: python uurDiscord.py
+
+      - name: aip notification
+        if: steps.aip-commit.outputs.changes_detected == 'true'
+        env:
+          aip: ${{ secrets.AIP }}
+        run: python aipDiscord.py
+
+      - name: bp notification
+        if: steps.bp-commit.outputs.changes_detected == 'true'
+        env:
+          bp: ${{ secrets.BP }}
+        run: python bpDiscord.py
+
+      - name: oop notification
+        if: steps.oop-commit.outputs.changes_detected == 'true'
+        env:
+          oop: ${{ secrets.OOP }}
+        run: python oopDiscord.py
+
+      - name: oopj notification
+        if: steps.oopj-commit.outputs.changes_detected == 'true'
+        env:
+          oopj: ${{ secrets.OOPJ }}
+        run: python oopjDiscord.py
+
+      - name: lp notification
+        if: steps.lp-commit.outputs.changes_detected == 'true'
+        env:
+          lp: ${{ secrets.LP }}
+        run: python lpDiscord.py
+
+      - name: sp notification
+        if: steps.sp-commit.outputs.changes_detected == 'true'
+        env:
+          sp: ${{ secrets.SP }}
+        run: python spDiscord.py
+
+      - name: dmat notification
+        if: steps.dmat-commit.outputs.changes_detected == 'true'
+        env:
+          dmat: ${{ secrets.DMAT }}
+        run: python dmatDiscord.py
+
+      - name: pj notification
+        if: steps.pj-commit.outputs.changes_detected == 'true'
+        env:
+          pj: ${{ secrets.pj }}
+        run: python pjDiscord.py
+
+      - name: rm notification
+        if: steps.rm-commit.outputs.changes_detected == 'true'
+        env:
+          rm: ${{ secrets.RM }}
+        run: python rmDiscord.py
+
+      - name: ti notification
+        if: steps.ti-commit.outputs.changes_detected == 'true'
+        env:
+          ti: ${{ secrets.TI }}
+        run: python tiDiscord.py
+
+      - name: os notification
+        if: steps.os-commit.outputs.changes_detected == 'true'
+        env:
+          os: ${{ secrets.OS }}
+        run: python osDiscord.py
