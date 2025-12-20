@@ -2,7 +2,7 @@ Advanced search...
 Forums
 Search results: 813
 1
-(current)
+(current
 2
 3
 4
