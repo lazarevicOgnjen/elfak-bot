@@ -55,7 +55,7 @@ jobs:
           echo "current_hour=$CURRENT_HOUR" >> $GITHUB_OUTPUT
 
       - name: run cs.py
-        if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour < 10) || (steps.time.outputs.current_hour >= 18 || steps.time.outputs.current_hour < 23) }}
+        if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour < 10) || (steps.time.outputs.current_hour >= 18 && steps.time.outputs.current_hour < 23) }}
         env:
           mail: ${{ secrets.MAIL }}
           password: ${{ secrets.PASSWORD }}
