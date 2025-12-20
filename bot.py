@@ -27,6 +27,6 @@ sp - strukture podataka
 
 III godina RI
 
-os - operativno sistemi
+os - operativni sistemi
 rm - racunarske mreze
 ti - teorija igara""")
