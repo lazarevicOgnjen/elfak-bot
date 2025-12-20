@@ -4,7 +4,7 @@ from dhooks import Webhook
 WEBHOOK_URL = [os.getenv('bot')]
 for url in WEBHOOK_URL:
     hook = Webhook(url)
-    hook.send("@everyone I godina
+    hook.send("""@everyone I godina
 
 uur - uvod u racunarstvo
 aip - algoritmi i programiranje
@@ -23,4 +23,4 @@ II godina
 
 os - operativno sistemi
 rm - racunarske mreze
-ti - teorija igara")
+ti - teorija igara""")
