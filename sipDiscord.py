@@ -14,4 +14,4 @@ for url in WEBHOOK_URL:
     
     embed.set_image(url="attachment://sip.png")
     file = File(sip_image, name="sip.png")
-    hook.send("@everyone", embed=embed, file=file)
+    hook.send("@sip", embed=embed, file=file)
