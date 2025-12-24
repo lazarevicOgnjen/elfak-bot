@@ -1,6 +1,6 @@
 Advanced search...
 Forums
-Search results: 813
+Search results: 814
 1
 (current)
 2
@@ -16,6 +16,17 @@ Search results: 813
 82
 »
 Next page
+News forum -> Kolokvijum T1 (2025/2026)
+by Aleksandar Stanimirović - Wednesday, 24 December 2025, 12:53 PM
+Kolokvijum T1 iz Baza podataka biće održan u sredu,  14.01.2026. godine. Tačno vreme i raspored održavanja kolokvijuma biće naknadno objavljeni.
+Kolokvijum T1 obuhvata sledeće gradivo:
+Uvod u baze podataka
+Modeli podataka, Konceptualni model
+Projektovanje konceptualnog modela baze podataka (ER model, ER dijagrami, primeri)
+Relacioni model
+Prevođenje ER modela u relacioni model
+Permalink
+See this post in context
 News forum -> Kolokvijum P1 (2025/2026)
 by Milena Frtunić Gligorijević - Thursday, 18 December 2025, 1:25 PM
 Poštovane koleginice i kolege,
@@ -98,15 +109,6 @@ by Leonid Stoimenov - Friday, 31 October 2025, 10:55 AM
 Delovi ispita koje ste položili u prethodnim rokovima važe vam zaključno sa ispitnim rokom Oktobar 3. 
 Od ispitnog roka Decembar ispit polažete u celini, a od ispitnog roka Januar važe pravila za novu generaciju studenata. 
 Permalink
-See this post in context
-News forum -> Rezultati ispita - APRIL 2025 -> Преглед поена и предлог оцена - АПРИЛ 2025
-by Leonid Stoimenov - Tuesday, 28 October 2025, 1:38 PM
-U prilogu je pregled osvojenih poena i predlog ocena.
-Upis ocena je u četvrtak, 29.10.2025 u 12:00 u prostoriji M2-2.
-
-BP APR 25 ocene.pdf
-Permalink
-Show parent
 See this post in context
 1
 (current)
