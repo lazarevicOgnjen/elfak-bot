@@ -16,6 +16,14 @@ Search results: 403
 41
 »
 Next page
+Obaveštenja -> Časovi predavanja 31.12.-C grupa
+by Natalija Stojanovic - Wednesday, 17 December 2025, 11:53 AM
+Obaveštenje
+ 
+Časovi predavanja koji su po rasporedu u sredu 31.12. u 9:15  pomeraju se u ponedeljak 29.12. u 12:15 (amfiteatar A3).
+Promena termina predavanja važi samo za 31.12. i nadalje će se predavanja održavati u regularnim terminima. 
+Permalink
+See this post in context
 Obaveštenja -> Pojašnjenje u vezi sa izradom laboratorijskih vežbi
 by Nikola Đorđević - Thursday, 18 December 2025, 3:56 PM
 Poštovane koleginice i kolege,
@@ -23,14 +31,6 @@ Poštovane koleginice i kolege,
 Student treba da uradi svoj zadatak kod kuće. Urađeni zadatak može da iskopira na flash drive i da isti ponese na laboratorijsku vežbu, gde će urađeni zadatak iskopirati sa flash drive-a na računar u laboratoriji. U terminu laboratorijske vežbe student treba da demonstrira urađeni zadatak, da odgovori na pitanja u vezi istog i da odgovori na pitanja koja su u vezi sa ostatkom materijala za laboratorijsku vežbu (pitanja se ne moraju odnositi samo na konkretan zadatak koji je student radio, već na ceo materijal za datu laboratorijsku vežbu). 
 
 Ukoliko student nije uradio zadatak kod kuće, može da radi zadatak u laboratoriji za vreme svog termina.
-Permalink
-See this post in context
-Obaveštenja -> Časovi predavanja 31.12.-C grupa
-by Natalija Stojanovic - Wednesday, 17 December 2025, 11:53 AM
-Obaveštenje
- 
-Časovi predavanja koji su po rasporedu u sredu 31.12. u 9:15  pomeraju se u ponedeljak 29.12. u 13:15 (amfiteatar A3).
-Promena termina predavanja važi samo za 31.12. i nadalje će se predavanja održavati u regularnim terminima. 
 Permalink
 See this post in context
 Obaveštenja -> Početak laboratorijskih vežbi 2025/2026.
