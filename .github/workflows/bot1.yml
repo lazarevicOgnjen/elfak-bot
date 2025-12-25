@@ -3,6 +3,7 @@ name: bot1
 on:
   workflow_dispatch:
   schedule:
+    - cron: '0 18 25 12 *'
     - cron: '0 5 30 12 *'   
     - cron: '0 5 2 2 *'    
     - cron: '0 5 7 4 *'    
