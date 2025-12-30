@@ -1,6 +1,6 @@
 Advanced search...
 Forums
-Search results: 814
+Search results: 815
 1
 (current)
 2
@@ -16,6 +16,11 @@ Search results: 814
 82
 »
 Next page
+News forum -> Računske i laboratorijske vežbe iz Baza podataka
+by Mina Nikolić - Tuesday, 30 December 2025, 11:59 AM
+Prvi termin računskih vežbi iz Baza podataka nakon praznika će biti u nedelji od 12. januara. Računske vežbe će biti održane u sredu, 14.01. i četvrtak, 15.01.2026. Takođe, četvrta laboratorijska vežba će biti održana 14.01. 
+Permalink
+See this post in context
 News forum -> Kolokvijum T1 (2025/2026)
 by Aleksandar Stanimirović - Wednesday, 24 December 2025, 12:53 PM
 Kolokvijum T1 iz Baza podataka biće održan u sredu,  14.01.2026. godine. Tačno vreme i raspored održavanja kolokvijuma biće naknadno objavljeni.
@@ -102,12 +107,6 @@ News forum -> Rezultati ispita - OKTOBAR 2
 by Leonid Stoimenov - Tuesday, 4 November 2025, 10:31 AM
 U prilogu su rezultati ispita za Oktobar 2.
 Rez OKT2.pdf
-Permalink
-See this post in context
-News forum -> Važenje položenih delova ispita
-by Leonid Stoimenov - Friday, 31 October 2025, 10:55 AM
-Delovi ispita koje ste položili u prethodnim rokovima važe vam zaključno sa ispitnim rokom Oktobar 3. 
-Od ispitnog roka Decembar ispit polažete u celini, a od ispitnog roka Januar važe pravila za novu generaciju studenata. 
 Permalink
 See this post in context
 1
