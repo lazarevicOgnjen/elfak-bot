@@ -52,7 +52,6 @@ jobs:
         run: python sip.py
 
       - name: run cs.py
-        if: ${{ (steps.time.outputs.current_hour > 4 && steps.time.outputs.current_hour < 8) || (steps.time.outputs.current_hour > 18 || steps.time.outputs.current_hour < 1) }}
         env:
           mail: ${{ secrets.MAIL }}
           password: ${{ secrets.PASSWORD }}
