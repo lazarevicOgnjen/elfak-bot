@@ -52,6 +52,7 @@ jobs:
         run: python sip.py
 
       - name: run cs.py
+        if: ${{ (steps.time.outputs.current_hour > 4 && steps.time.outputs.current_hour < 8) || (steps.time.outputs.current_hour > 18 || steps.time.outputs.current_hour < 1) }}
         env:
           mail: ${{ secrets.MAIL }}
           password: ${{ secrets.PASSWORD }}
@@ -153,77 +154,77 @@ jobs:
       - name: sip notification
         if: steps.sip-commit.outputs.changes_detected == 'true'
         env:
-          sip: ${{ secrets.BOTTEMPORARY }}
+          sip: ${{ secrets.SIP }}
         run: python sipDiscord.py
 
       - name: uur notification
         if: steps.uur-commit.outputs.changes_detected == 'true'
         env:
-          uur: ${{ secrets.BOTTEMPORARY }}
+          uur: ${{ secrets.UUR }}
         run: python uurDiscord.py
 
       - name: aip notification
         if: steps.aip-commit.outputs.changes_detected == 'true'
         env:
-          aip: ${{ secrets.BOTTEMPORARY }}
+          aip: ${{ secrets.AIP }}
         run: python aipDiscord.py
 
       - name: bp notification
         if: steps.bp-commit.outputs.changes_detected == 'true'
         env:
-          bp: ${{ secrets.BOTTEMPORARY }}
+          bp: ${{ secrets.BP }}
         run: python bpDiscord.py
 
       - name: oop notification
         if: steps.oop-commit.outputs.changes_detected == 'true'
         env:
-          oop: ${{ secrets.BOTTEMPORARY }}
+          oop: ${{ secrets.OOP }}
         run: python oopDiscord.py
 
       - name: oopj notification
         if: steps.oopj-commit.outputs.changes_detected == 'true'
         env:
-          oopj: ${{ secrets.BOTTEMPORARY }}
+          oopj: ${{ secrets.OOPJ }}
         run: python oopjDiscord.py
 
       - name: lp notification
         if: steps.lp-commit.outputs.changes_detected == 'true'
         env:
-          lp: ${{ secrets.BOTTEMPORARY }}
+          lp: ${{ secrets.LP }}
         run: python lpDiscord.py
 
       - name: sp notification
         if: steps.sp-commit.outputs.changes_detected == 'true'
         env:
-          sp: ${{ secrets.BOTTEMPORARY }}
+          sp: ${{ secrets.SP }}
         run: python spDiscord.py
 
       - name: dmat notification
         if: steps.dmat-commit.outputs.changes_detected == 'true'
         env:
-          dmat: ${{ secrets.BOTTEMPORARY }}
+          dmat: ${{ secrets.DMAT }}
         run: python dmatDiscord.py
 
       - name: pj notification
         if: steps.pj-commit.outputs.changes_detected == 'true'
         env:
-          pj: ${{ secrets.BOTTEMPORARY }}
+          pj: ${{ secrets.pj }}
         run: python pjDiscord.py
 
       - name: rm notification
         if: steps.rm-commit.outputs.changes_detected == 'true'
         env:
-          rm: ${{ secrets.BOTTEMPORARY }}
+          rm: ${{ secrets.RM }}
         run: python rmDiscord.py
 
       - name: ti notification
         if: steps.ti-commit.outputs.changes_detected == 'true'
         env:
-          ti: ${{ secrets.BOTTEMPORARY }}
+          ti: ${{ secrets.TI }}
         run: python tiDiscord.py
 
       - name: os notification
         if: steps.os-commit.outputs.changes_detected == 'true'
         env:
-          os: ${{ secrets.BOTTEMPORARY }}
+          os: ${{ secrets.OS }}
         run: python osDiscord.py
