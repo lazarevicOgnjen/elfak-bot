@@ -19,7 +19,7 @@ try:
     page_to_scrape.get("https://sip.elfak.ni.ac.rs/")
     time.sleep(3)
 
-    sipT = page_to_scrape.find_element(By.ID, 'novosti')
+    sipT = page_to_scrape.find_element(By.XPATH, "/html/body/section[1]/div/div/div[1]/ul/li[1]/p[1]")
     sip_markdown = sipT.text
 
     with open("sip.md", "w") as sip_file:
