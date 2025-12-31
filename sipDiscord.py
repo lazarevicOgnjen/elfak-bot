@@ -10,6 +10,6 @@ file = File(sip_image, name="sip.png")
 
 hook.send(
     "@everyone  SIP\n\n"
-    "[- news forum link -](https://sip.elfak.ni.ac.rs)\n",
+    "[- news forum link -](https://sip.elfak.ni.ac.rs)",
     file=file
 )
