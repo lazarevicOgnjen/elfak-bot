@@ -17,7 +17,7 @@ page_to_scrape = webdriver.Chrome(service=browser_driver, options=chrome_options
 try:
     
     page_to_scrape.get("https://sip.elfak.ni.ac.rs/")
-    time.sleep(3)
+    time.sleep(1)
 
     sipT = page_to_scrape.find_element(By.XPATH, "/html/body/section[1]/div/div/div[1]/ul/li[1]/p[1]")
     sip_markdown = sipT.text
