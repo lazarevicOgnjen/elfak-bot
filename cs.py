@@ -41,7 +41,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=2&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    uurT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    uurT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     uur_markdown = uurT.text
 
     with open("uur.md", "w") as uur_file:
@@ -60,7 +60,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=3&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    aipT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    aipT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     aip_markdown = aipT.text
 
     with open("aip.md", "w") as aip_file:
@@ -80,7 +80,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=4&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    bpT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    bpT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     bp_markdown = bpT.text
 
     with open("bp.md", "w") as bp_file:
@@ -99,7 +99,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=97&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    dmatT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    dmatT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     dmat_markdown = dmatT.text
 
     with open("dmat.md", "w") as dmat_file:
@@ -118,7 +118,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=45&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    oopT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    oopT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     oop_markdown = oopT.text
 
     with open("oop.md", "w") as oop_file:
@@ -138,7 +138,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=41&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    lpT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    lpT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     lp_markdown = lpT.text
 
     with open("lp.md", "w") as lp_file:
@@ -160,7 +160,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=62&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    oopjT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    oopjT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     oopj_markdown = oopjT.text
 
     with open("oopj.md", "w") as oopj_file:
@@ -181,7 +181,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=9&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    spT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    spT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     sp_markdown = spT.text
 
     with open("sp.md", "w") as sp_file:
@@ -201,7 +201,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=11&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    pjT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    pjT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     pj_markdown = pjT.text
 
     with open("pj.md", "w") as pj_file:
@@ -221,7 +221,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=55&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    osT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    osT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     os_markdown = osT.text
 
     with open("os.md", "w") as os_file:
@@ -241,7 +241,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=49&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    rmT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    rmT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     rm_markdown = rmT.text
 
     with open("rm.md", "w") as rm_file:
@@ -260,7 +260,7 @@ try:
     page_to_scrape.get("https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=110&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=")
     time.sleep(3)
     
-    tiT = page_to_scrape.find_element(By.XPATH, '//*[@id="region-main"]')
+    tiT = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/section/div/article[1]/div')
     ti_markdown = tiT.text
 
     with open("ti.md", "w") as ti_file:
