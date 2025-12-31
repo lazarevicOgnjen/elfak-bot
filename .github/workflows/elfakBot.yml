@@ -166,7 +166,7 @@ jobs:
       - name: aip notification
         if: steps.aip-commit.outputs.changes_detected == 'true'
         env:
-          aip: ${{ secrets.AIP }}
+          aip: ${{ secrets.BOTTEMPORARY }}
         run: python aipDiscord.py
 
       - name: bp notification
