@@ -9,7 +9,7 @@ hook = Webhook(WEBHOOK_URL)
 file = File(sip_image, name="sip.png")
 
 hook.send(
-    "@everyone SIP\n"
-    "[- news forum link -](https://sip.elfak.ni.ac.rs/)",
+    "@everyone  SIP\n\n"
+    "[- news forum link -](https://sip.elfak.ni.ac.rs/)\n",
     file=file
 )
