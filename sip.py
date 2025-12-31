@@ -21,12 +21,13 @@ try:
 
     sipT = page_to_scrape.find_element(By.XPATH, "/html/body/section[1]/div/div/div[1]/ul/li[1]/p[1]")
     sip_markdown = sipT.text
+    sipt = page_to_scrape.find_element(By.XPATH, '//*[@id="novosti"]')
 
     with open("sip.md", "w") as sip_file:
         sip_file.write(sip_markdown)
 
-    height = sipT.size['height']
-    width = sipT.size['width']
+    height = sipt.size['height']
+    width = sipt.size['width']
 
     
     desired_width = max(width, 1200)  
@@ -36,9 +37,9 @@ try:
     page_to_scrape.set_window_size(desired_width, desired_height)  
 
    
-    page_to_scrape.execute_script("arguments[0].scrollIntoView(true);", sipT)
+    page_to_scrape.execute_script("arguments[0].scrollIntoView(true);", sipt)
 
-    sipT.screenshot('sip.png')
+    sipt.screenshot('sip.png')
 
 finally:
     page_to_scrape.quit()
