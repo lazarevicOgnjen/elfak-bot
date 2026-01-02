@@ -5,5 +5,5 @@ by Aleksandar Milenkovic - Friday, 14 November 2025, 2:10 PM
 Преглед радова могућ је у термину уписа оцена (понедељак, 17.11.2025, 12 часова, лабораторија 533).
 
 
-Permalink
+Permalin
 See this post in context
