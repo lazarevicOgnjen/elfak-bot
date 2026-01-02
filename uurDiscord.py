@@ -1,15 +1,32 @@
+import discord
 import os
-from dhooks import Webhook, File
-
-uur_image = 'uur.png'
+import asyncio
+import aiohttp
 
 WEBHOOK_URL = os.getenv("uur")
-hook = Webhook(WEBHOOK_URL)
 
-file = File(uur_image, name="uur.png")
+class BOTButton(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        self.add_item(
+            discord.ui.Button(
+                label="Forum link",
+                url="https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=2&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=",
+                style=discord.ButtonStyle.link
+            )
+        )
 
-hook.send(
-    "@everyone  📢 UUR\n\n"
-    "[- forum post link -](https://cs.elfak.ni.ac.rs/nastava/mod/forum/search.php?id=2&words=&phrase=&notwords=&fullwords=&timefromrestrict=1&fromday=1&frommonth=1&fromyear=2000&fromhour=0&fromminute=0&hfromday=0&hfrommonth=0&hfromyear=0&hfromhour=0&hfromminute=0&htoday=1&htomonth=1&htoyear=1&htohour=1&htominute=1&forumid=&subject=&user=)",
-    file=file
-)
+async def main():
+    async with aiohttp.ClientSession() as session:
+        webhook = discord.Webhook.from_url(
+            WEBHOOK_URL,
+            session=session
+        )
+
+        await webhook.send(
+            content="@everyone",
+            view=BOTButton(),
+            file=discord.File("uur.png")
+        )
+
+asyncio.run(main())
