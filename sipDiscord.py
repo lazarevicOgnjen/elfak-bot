@@ -1,6 +1,7 @@
 import discord
-import asyncio
 import os
+import asyncio
+import aiohttp
 
 WEBHOOK_URL = os.getenv("sip")
 
@@ -16,13 +17,10 @@ class SIPButton(discord.ui.View):
         )
 
 async def main():
-    intents = discord.Intents.none()
-    client = discord.Client(intents=intents)
-
-    async with client:
+    async with aiohttp.ClientSession() as session:
         webhook = discord.Webhook.from_url(
             WEBHOOK_URL,
-            client=client
+            session=session
         )
 
         await webhook.send(
