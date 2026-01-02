@@ -1,2 +1,2 @@
-dhooks
+discord.py>=2.3.0
 selenium==4.11.2
