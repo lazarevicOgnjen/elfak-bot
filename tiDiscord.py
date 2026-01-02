@@ -5,7 +5,7 @@ import aiohttp
 
 WEBHOOK_URL = os.getenv("ti")
 
-class TIButton(discord.ui.View):
+class BOTButton(discord.ui.View):
     def __init__(self):
         super().__init__(timeout=None)
         self.add_item(
@@ -25,7 +25,7 @@ async def main():
 
         await webhook.send(
             content="@everyone",
-            view=TIButton(),
+            view=BOTButton(),
             file=discord.File("ti.png")
         )
 
