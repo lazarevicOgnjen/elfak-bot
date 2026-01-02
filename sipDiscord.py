@@ -14,10 +14,10 @@ class SIPButton(discord.ui.View):
             )
         )
 
-async def send():
-    webhook = discord.SyncWebhook.from_url(WEBHOOK_URL)
-    webhook.send(
-        "@everyone",
-        view=SIPButton(),
-        file=discord.File("sip.png")
-    )
+webhook = discord.SyncWebhook.from_url(WEBHOOK_URL)
+
+webhook.send(
+    content="@everyone",
+    view=SIPButton(),
+    file=discord.File("sip.png")
+)
