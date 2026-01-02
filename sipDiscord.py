@@ -1,21 +1,23 @@
+import discord
 import os
-from dhooks import Webhook, File, Embed
-
-sip_image = 'sip.png'
-
-embed = Embed(
-    title="🔗 SIP link",
-    url="https://sip.elfak.ni.ac.rs",
-    color=0x3498DB
-)
 
 WEBHOOK_URL = os.getenv("sip")
-hook = Webhook(WEBHOOK_URL)
 
-file = File(sip_image, name="sip.png")
+class SIPButton(discord.ui.View):
+    def __init__(self):
+        super().__init__()
+        self.add_item(
+            discord.ui.Button(
+                label="SIP link",
+                url="https://sip.elfak.ni.ac.rs/",
+                style=discord.ButtonStyle.link
+            )
+        )
 
-hook.send(
-    "@everyone  📢 SIP\n\n",
-    embed=embed,
-    file=file
-)
+async def send():
+    webhook = discord.SyncWebhook.from_url(WEBHOOK_URL)
+    webhook.send(
+        "@everyone",
+        view=SIPButton(),
+        file=discord.File("sip.png")
+    )
