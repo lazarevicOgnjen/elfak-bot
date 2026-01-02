@@ -4,9 +4,9 @@ from dhooks import Webhook, File, Embed
 sip_image = 'sip.png'
 
 embed = Embed(
-    title="🔗 NEWS FORUM",
+    title="🔗 SIP link",
     url="https://sip.elfak.ni.ac.rs",
-    color=0x2F3136
+    color=0x3498DB
 )
 
 WEBHOOK_URL = os.getenv("sip")
