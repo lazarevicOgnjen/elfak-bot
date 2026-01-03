@@ -3,7 +3,7 @@ import os
 import asyncio
 
 TOKEN = os.getenv("elfak_bot")
-CHANNEL_ID = int(os.getenv("sip_id"))  # MUST be int
+CHANNEL_ID = int(os.getenv("sip_id"))
 
 intents = discord.Intents.default()
 
@@ -31,16 +31,16 @@ async def on_ready():
         await client.close()
         return
 
-    # 🔥 Delete messages
+    
     deleted = 0
     async for message in channel.history(limit=None):
         await message.delete()
         deleted += 1
-        await asyncio.sleep(0.3)  # avoid rate limits
+        await asyncio.sleep(0.3)
 
     print(f"Deleted {deleted} messages")
 
-    # 📢 Send new message as BOT
+    
     await channel.send(
         content="@everyone",
         view=BOTButton(),
