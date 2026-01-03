@@ -1,35 +1,15 @@
 import discord
 import os
 import asyncio
-import aiohttp
-
-# delete old message
 
 TOKEN = os.getenv("elfak_bot")
-CHANNEL_ID = os.getenv("sip_id")
+CHANNEL_ID = int(os.getenv("sip_id"))  # MUST be int
 
 intents = discord.Intents.default()
 intents.message_content = True
 
 client = discord.Client(intents=intents)
 
-@client.event
-async def on_ready():
-    channel = client.get_channel(CHANNEL_ID)
-
-    deleted = 0
-    async for message in channel.history(limit=None):
-        await message.delete()
-        deleted += 1
-
-    print(f"Deleted {deleted} messages")
-    await client.close()
-
-client.run(TOKEN)
-
-# send new message
-
-WEBHOOK_URL = os.getenv("sip")
 
 class BOTButton(discord.ui.View):
     def __init__(self):
@@ -42,18 +22,35 @@ class BOTButton(discord.ui.View):
             )
         )
 
-async def main():
-    async with aiohttp.ClientSession() as session:
-        webhook = discord.Webhook.from_url(
-            WEBHOOK_URL,
-            session=session
-        )
 
-        await webhook.send(
-            content="@everyone",
-            view=BOTButton(),
-            file=discord.File("sip.png")
-        )
+@client.event
+async def on_ready():
+    channel = client.get_channel(CHANNEL_ID)
 
-asyncio.run(main())
+    if channel is None:
+        print("Channel not found")
+        await client.close()
+        return
 
+    # 🔥 Delete messages
+    deleted = 0
+    async for message in channel.history(limit=None):
+        await message.delete()
+        deleted += 1
+        await asyncio.sleep(0.3)  # avoid rate limits
+
+    print(f"Deleted {deleted} messages")
+
+    # 📢 Send new message as BOT
+    await channel.send(
+        content="@everyone",
+        view=BOTButton(),
+        file=discord.File("sip.png")
+    )
+
+    print("New message sent")
+
+    await client.close()
+
+
+client.run(TOKEN)
