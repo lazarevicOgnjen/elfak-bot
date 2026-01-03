@@ -41,18 +41,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt          
       
-      - name: get current hour
+      - name: get current hour (Belgrade time)
         id: time
         run: |
-          CURRENT_HOUR=$(date +'%H')
-          echo "Current hour: $CURRENT_HOUR"
+          CURRENT_HOUR=$(TZ=Europe/Belgrade date +'%H')
+          echo "Current hour (Belgrade): $CURRENT_HOUR"
           echo "current_hour=$CURRENT_HOUR" >> $GITHUB_OUTPUT
 
       - name: run sip
         run: python sip.py
 
       - name: run cs.py
-        if: ${{ (steps.time.outputs.current_hour > 4 && steps.time.outputs.current_hour < 12) || (steps.time.outputs.current_hour > 18 || steps.time.outputs.current_hour < 23) }}
+        if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour <= 14) || (steps.time.outputs.current_hour >= 20 || steps.time.outputs.current_hour <= 2) }}
         env:
           mail: ${{ secrets.MAIL }}
           password: ${{ secrets.PASSWORD }}
