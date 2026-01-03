@@ -154,77 +154,79 @@ jobs:
       - name: sip notification
         if: steps.sip-commit.outputs.changes_detected == 'true'
         env:
-          sip: ${{ secrets.ELFAK_BOT }}
+          elfak_bot: ${{ secrets.ELFAK_BOT }}
+          sip_id: ${{ secrets.SIP_ID }}
+          sip: ${{ secrets.BOT }}
         run: python sipDiscord.py
 
       - name: uur notification
         if: steps.uur-commit.outputs.changes_detected == 'true'
         env:
-          uur: ${{ secrets.ELFAK_BOT }}
+          uur: ${{ secrets.BOT }}
         run: python uurDiscord.py
 
       - name: aip notification
         if: steps.aip-commit.outputs.changes_detected == 'true'
         env:
-          aip: ${{ secrets.ELFAK_BOT }}
+          aip: ${{ secrets.BOT }}
         run: python aipDiscord.py
 
       - name: bp notification
         if: steps.bp-commit.outputs.changes_detected == 'true'
         env:
-          bp: ${{ secrets.ELFAK_BOT }}
+          bp: ${{ secrets.BOT }}
         run: python bpDiscord.py
 
       - name: oop notification
         if: steps.oop-commit.outputs.changes_detected == 'true'
         env:
-          oop: ${{ secrets.ELFAK_BOT }}
+          oop: ${{ secrets.BOT }}
         run: python oopDiscord.py
 
       - name: oopj notification
         if: steps.oopj-commit.outputs.changes_detected == 'true'
         env:
-          oopj: ${{ secrets.ELFAK_BOT }}
+          oopj: ${{ secrets.BOT }}
         run: python oopjDiscord.py
 
       - name: lp notification
         if: steps.lp-commit.outputs.changes_detected == 'true'
         env:
-          lp: ${{ secrets.ELFAK_BOT }}
+          lp: ${{ secrets.BOT }}
         run: python lpDiscord.py
 
       - name: sp notification
         if: steps.sp-commit.outputs.changes_detected == 'true'
         env:
-          sp: ${{ secrets.ELFAK_BOT }}
+          sp: ${{ secrets.BOT }}
         run: python spDiscord.py
 
       - name: dmat notification
         if: steps.dmat-commit.outputs.changes_detected == 'true'
         env:
-          dmat: ${{ secrets.ELFAK_BOT }}
+          dmat: ${{ secrets.BOT }}
         run: python dmatDiscord.py
 
       - name: pj notification
         if: steps.pj-commit.outputs.changes_detected == 'true'
         env:
-          pj: ${{ secrets.ELFAK_BOT }}
+          pj: ${{ secrets.BOT }}
         run: python pjDiscord.py
 
       - name: rm notification
         if: steps.rm-commit.outputs.changes_detected == 'true'
         env:
-          rm: ${{ secrets.ELFAK_BOT }}
+          rm: ${{ secrets.BOT }}
         run: python rmDiscord.py
 
       - name: ti notification
         if: steps.ti-commit.outputs.changes_detected == 'true'
         env:
-          ti: ${{ secrets.ELFAK_BOT }}
+          ti: ${{ secrets.BOT }}
         run: python tiDiscord.py
 
       - name: os notification
         if: steps.os-commit.outputs.changes_detected == 'true'
         env:
-          os: ${{ secrets.ELFAK_BOT }}
+          os: ${{ secrets.BOT }}
         run: python osDiscord.py
