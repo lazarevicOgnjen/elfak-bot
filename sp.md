@@ -1,7 +1,7 @@
 Forum novosti -> Rezultati ispita - Oktobar 3 -> Odgovor: Pregled osvojenih poena - Oktobar 3
 by Leonid Stoimenov - Friday, 14 November 2025, 6:40 PM
 Na usmeni deo ispita mogu da izadju studenti čije je polje Usmeni označeno. 
-Uneti su poeni iz prethodnih roova.
+Uneti su poeni iz prethodnih rokova.
 Ukoliko ste imali više poena na nekom delu u nekom od prethodnih rokova, naveden je taj broj poena.
 индекс име презиме Лаб (10) T (100) П (100) Укупно Т+П  Испит (80%) Усмени (10% ili 20%)
 19233 Марко Милисављевић 4.5    53 44 97 0  usmeni
