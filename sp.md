@@ -5,7 +5,7 @@ Uneti su poeni iz prethodnih rokova.
 Ukoliko ste imali više poena na nekom delu u nekom od prethodnih rokova, naveden je taj broj poena.
 индекс име презиме Лаб (10) T (100) П (100) Укупно Т+П  Испит (80%) Усмени (10% ili 20%)
 19233 Марко Милисављевић 4.5    53 44 97 0  usmeni
-19523 Вељко Алексић 0     54 58 112 45  usmeni
+19523 Вељко Алексић 0     54 58 112 45  usmen
 19534 Тадија Арсић 0     35 51 86 0  
 19549 Лука Бојковић 0     43 7 50 0  
 19586 Стефан Денчић 0     58 32 90 0  
