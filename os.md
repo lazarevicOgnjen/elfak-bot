@@ -8,5 +8,6 @@ by Nikola Davidović - Tuesday, 9 December 2025, 10:57 AM
 - Неположена лабораторијска вежба се третира исто као и изостанак.
 - Литература са странице предмета је дозвољена.
 - ChatGPT и други AI алати нису дозвољени.
+
 Permalink
 See this post in context
