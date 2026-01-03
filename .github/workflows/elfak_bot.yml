@@ -52,7 +52,7 @@ jobs:
         run: python sip.py
 
       - name: run cs.py
-        if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour <= 14) || (steps.time.outputs.current_hour >= 20 || steps.time.outputs.current_hour <= 2) }}
+        if: ${{ (steps.time.outputs.current_hour >= 6 && steps.time.outputs.current_hour < 14) || (steps.time.outputs.current_hour >= 20 || steps.time.outputs.current_hour < 2) }}
         env:
           mail: ${{ secrets.MAIL }}
           password: ${{ secrets.PASSWORD }}
