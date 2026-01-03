@@ -156,88 +156,88 @@ jobs:
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           sip_id: ${{ secrets.SIP_ID }}
-        run: python sipDiscord.py
+        run: python sip_discord.py
 
       - name: uur notification
         if: steps.uur-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           uur_id: ${{ secrets.UUR_ID }}
-        run: python uurDiscord.py
+        run: python uur_discord.py
 
       - name: aip notification
         if: steps.aip-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           aip_id: ${{ secrets.AIP_ID }}
-        run: python aipDiscord.py
+        run: python aip_discord.py
 
       - name: bp notification
         if: steps.bp-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           bp_id: ${{ secrets.BP_ID }}
-        run: python bpDiscord.py
+        run: python bp_discord.py
 
       - name: oop notification
         if: steps.oop-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           oop_id: ${{ secrets.OOP_ID }}
-        run: python oopDiscord.py
+        run: python oop_discord.py
 
       - name: oopj notification
         if: steps.oopj-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           oopj_id: ${{ secrets.OOPj_ID }}
-        run: python oopjDiscord.py
+        run: python oopj_discord.py
 
       - name: lp notification
         if: steps.lp-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           lp_id: ${{ secrets.LP_ID }}
-        run: python lpDiscord.py
+        run: python lp_discord.py
 
       - name: sp notification
         if: steps.sp-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           sp_id: ${{ secrets.SP_ID }}
-        run: python spDiscord.py
+        run: python sp_discord.py
 
       - name: dmat notification
         if: steps.dmat-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           dmat_id: ${{ secrets.DMAT_ID }}
-        run: python dmatDiscord.py
+        run: python dmat_discord.py
 
       - name: pj notification
         if: steps.pj-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           pj_id: ${{ secrets.PJ_ID }}
-        run: python pjDiscord.py
+        run: python pj_discord.py
 
       - name: rm notification
         if: steps.rm-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           rm_id: ${{ secrets.RM_ID }}
-        run: python rmDiscord.py
+        run: python rm_discord.py
 
       - name: ti notification
         if: steps.ti-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           ti_id: ${{ secrets.TI_ID }}
-        run: python tiDiscord.py
+        run: python ti_iscord.py
 
       - name: os notification
         if: steps.os-commit.outputs.changes_detected == 'true'
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           os_id: ${{ secrets.OS_ID }}
-        run: python osDiscord.py
+        run: python os_discord.py
