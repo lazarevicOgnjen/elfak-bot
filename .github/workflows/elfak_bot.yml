@@ -233,7 +233,7 @@ jobs:
         env:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           ti_id: ${{ secrets.TI_ID }}
-        run: python ti_iscord.py
+        run: python ti_discord.py
 
       - name: os notification
         if: steps.os-commit.outputs.changes_detected == 'true'
