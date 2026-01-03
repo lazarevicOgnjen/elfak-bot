@@ -6,7 +6,6 @@ TOKEN = os.getenv("elfak_bot")
 CHANNEL_ID = int(os.getenv("sip_id"))  # MUST be int
 
 intents = discord.Intents.default()
-intents.message_content = True
 
 client = discord.Client(intents=intents)
 
