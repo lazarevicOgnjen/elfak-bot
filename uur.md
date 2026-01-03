@@ -4,5 +4,5 @@ Obaveštenje
  
 Časovi predavanja koji su po rasporedu u sredu 31.12. u 9:15  pomeraju se u ponedeljak 29.12. u 12:15 (amfiteatar A3).
 Promena termina predavanja važi samo za 31.12. i nadalje će se predavanja održavati u regularnim terminima. 
-Permalink
+Permalin
 See this post in context
