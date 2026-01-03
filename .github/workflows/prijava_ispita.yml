@@ -3,32 +3,42 @@ name: prijava ispita
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 17 25 12 *'
     - cron: '0 5 30 12 *'   
     - cron: '0 5 2 2 *'    
     - cron: '0 5 7 4 *'    
     - cron: '0 5 8 6 *'     
     - cron: '0 5 13 7 *'    
-    - cron: '0 5 4 9 *' 
+    - cron: '0 5 4 9 *'     
 
 jobs:
-  notify:
+  mail:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          pip install dhooks
-
-      - name: Send Discord webhook
+      - name: Send single-recipient e-mail
         env:
-          grupa: ${{ secrets.GRUPA }}
+          SMTP_SERVER: smtp.gmail.com
+          SMTP_PORT:   587
+          BOT_MAIL:   ${{ secrets.BOT_MAIL }}  
+          BOT_PASS:   ${{ secrets.BOT_PASS }}
+          TO_EMAIL:    ${{ secrets.TO_EMAIL }} 
+          SUBJECT:     "SIP prijava ispita"
+          BODY_TEXT: |
+            Prijavi ispite !!!
+            
+        shell: python
         run: |
-          python bot-ispiti.py
+          import os, smtplib
+          from email.message import EmailMessage
+
+          msg = EmailMessage()
+          msg["From"]    = os.getenv("BOT_MAIL")
+          msg["To"]      = os.getenv("TO_EMAIL")
+          msg["Subject"] = os.getenv("SUBJECT")
+          msg.set_content(os.getenv("BODY_TEXT"))
+
+          with smtplib.SMTP(os.getenv("SMTP_SERVER"), int(os.getenv("SMTP_PORT"))) as smtp:
+              smtp.starttls()
+              smtp.login(os.getenv("BOT_MAIL"), os.getenv("BOT_PASS"))
+              smtp.send_message(msg)
+
+          print("✅ E-mail sent!")
