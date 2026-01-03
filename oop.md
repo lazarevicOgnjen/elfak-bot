@@ -4,4 +4,4 @@ Laboratorijske vežbe za smer Elektronika održavaće se u laboratorijama 79 i 8
 1, 3, 4. i 5. laboratorijska vežba održaće se u laboratoriji 79.
 2. laboratorijska vežba i termin nadoknade održaće se u laboratoriji 81.
 Permalink
-See this post in context
+See this post in contex
