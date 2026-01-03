@@ -1,4 +1,4 @@
-name: bot1
+name: prijava ispita
 
 on:
   workflow_dispatch:
@@ -29,6 +29,6 @@ jobs:
 
       - name: Send Discord webhook
         env:
-          bot1: ${{ secrets.BOT1 }}
+          grupa: ${{ secrets.GRUPA }}
         run: |
           python bot-ispiti.py
