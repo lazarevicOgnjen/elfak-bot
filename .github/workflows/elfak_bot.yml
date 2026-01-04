@@ -73,6 +73,27 @@ jobs:
           file_pattern: uur.md
         id: uur-commit
 
+      - name: oet1 changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update oet1.md
+          file_pattern: oet1.md
+        id: oet1-commit
+
+      - name: oet2 changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update oet2.md
+          file_pattern: oet2.md
+        id: oet2-commit
+
+      - name: fiz changes
+        uses: lazarevicOgnjen/git-auto-commit-action@v6
+        with:
+          commit_message: update fiz.md
+          file_pattern: fiz.md
+        id: fiz-commit
+
       - name: aip changes
         uses: lazarevicOgnjen/git-auto-commit-action@v6
         with:
@@ -164,6 +185,27 @@ jobs:
           elfak_bot: ${{ secrets.ELFAK_BOT }}
           uur_id: ${{ secrets.UUR_ID }}
         run: python uur_discord.py
+
+      - name: oet1 notification
+        if: steps.oet1-commit.outputs.changes_detected == 'true'
+        env:
+          elfak_bot: ${{ secrets.ELFAK_BOT }}
+          oet1_id: ${{ secrets.OET1_ID }}
+        run: python oet1_discord.py
+
+      - name: oet2 notification
+        if: steps.oet2-commit.outputs.changes_detected == 'true'
+        env:
+          elfak_bot: ${{ secrets.ELFAK_BOT }}
+          oet2_id: ${{ secrets.OET2_ID }}
+        run: python oet2_discord.py
+
+      - name: fiz notification
+        if: steps.fiz-commit.outputs.changes_detected == 'true'
+        env:
+          elfak_bot: ${{ secrets.ELFAK_BOT }}
+          fiz_id: ${{ secrets.FIZ_ID }}
+        run: python fiz_discord.py
 
       - name: aip notification
         if: steps.aip-commit.outputs.changes_detected == 'true'
