@@ -76,6 +76,71 @@ try:
     page_to_scrape.execute_script("arguments[0].scrollIntoView(true);", csText)
     csText.screenshot('aip.png')
 
+    # oet1
+
+    page_to_scrape.get("https://eth.elfak.ni.ac.rs/?cat=4")
+    time.sleep(1)
+    
+    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[1]/section/div[1]/article[1]/div/div')
+    oet1_markdown = csText.text
+    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[1]/section/div[1]')
+
+    with open("oet1.md", "w") as oet1_file:
+        oet1_file.write(oet1_markdown)
+
+    height = csText.size['height']
+    width = csText.size['width']
+    desired_width = max(width, 1200)  
+    desired_height = min(height, 1000)
+    page_to_scrape.set_window_size(desired_width, desired_height)    
+    page_to_scrape.execute_script("arguments[0].scrollIntoView(true);", csText)
+    csText.screenshot('oet1.png')
+
+    # oet2
+
+    page_to_scrape.get("https://eth.elfak.ni.ac.rs/?cat=5")
+    time.sleep(1)
+    
+    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[1]/section/div[1]/article[1]/div/div')
+    oet2_markdown = csText.text
+    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div[1]/section/div[1]')
+
+    with open("oet2.md", "w") as oet2_file:
+        oet2_file.write(oet2_markdown)
+
+    height = csText.size['height']
+    width = csText.size['width']
+    desired_width = max(width, 1200)  
+    desired_height = min(height, 1000)
+    page_to_scrape.set_window_size(desired_width, desired_height)    
+    page_to_scrape.execute_script("arguments[0].scrollIntoView(true);", csText)
+    csText.screenshot('oet2.png')
+
+
+    # fizika
+
+    page_to_scrape.get("https://mikro.elfak.ni.ac.rs/predmeti/fizika/")
+    time.sleep(1)
+    
+    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div/div/main/article/div[2]/div/p[2]/a')
+    fiz_markdown = csText.text
+    csText = page_to_scrape.find_element(By.XPATH, '//*[@id="main"]')
+
+    with open("fiz.md", "w") as fiz_file:
+        fiz_file.write(fiz_markdown)
+
+    height = csText.size['height']
+    width = csText.size['width']
+    desired_width = max(width, 1200)  
+    desired_height = min(height, 1000)
+    page_to_scrape.set_window_size(desired_width, desired_height)    
+    page_to_scrape.execute_script("arguments[0].scrollIntoView(true);", csText)
+    csText.screenshot('fiz.png')    
+
+
+
+    
+
     # II godina
     # bp
 
