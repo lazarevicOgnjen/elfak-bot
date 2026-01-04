@@ -5,5 +5,4 @@ WEBHOOK_URL = [os.getenv('bot')]
 for url in WEBHOOK_URL:
     hook = Webhook(url)
     hook.send("""@everyone 
-
-Dodati su novi predmeti za I godinu !!!""")
+Ukoliko želite da prestanete da pratite određene predmete, potrebno je da ih u novoj listi predmeta prvo ponovo čekirate, a zatim da ih odčekirate.""")
