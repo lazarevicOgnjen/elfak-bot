@@ -56,7 +56,7 @@ jobs:
         env:
           mail: ${{ secrets.MAIL }}
           password: ${{ secrets.PASSWORD }}
-        run: python cs.py
+        run: python predmeti.py
 
       # Step 7: commit 
       - name: sip changes
