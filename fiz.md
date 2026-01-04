@@ -1,1 +1,1 @@
-Rezultati pismenog dela ispita u ispitnom roku oktobar 
+Rezultati pismenog dela ispita u ispitnom roku oktobar 3
