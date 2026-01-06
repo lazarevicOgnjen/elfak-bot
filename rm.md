@@ -1,5 +1,5 @@
-Obaveštenja -> Raspored laboratorijskih vežbi
-by Marija Milošević - Friday, 12 December 2025, 12:27 PM
-Raspored za laboratorijske vežbe dostupan je na stranici predmeta, zajedno s detaljima održavanja i ocenjivanja. Ukoliko prvi put slušate predmet a niste na spisku, javite se predmetnim asistentima. Prvi termin zakazan je za ponedeljak, 22. decembar u laboratoriji E3.
+Obaveštenja -> Prijava za izlazak na kolokvijum iz Računarskih mreža
+by Marija Milošević - Tuesday, 6 January 2026, 11:04 AM
+Na stranici kursa objavljen je link za prijavu za izlazak na I kolokvijum iz Računarskih mreža, koji će biti održan u sredu, 14.01.2026. u 12 časova. Mogu se prijaviti i studenti koji ne slušaju predmet prvi put. Prijava traje do ponedeljka, 12.01. u 13 časova.
 Permalink
 See this post in context
