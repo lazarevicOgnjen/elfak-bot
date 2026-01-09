@@ -122,7 +122,7 @@ try:
     page_to_scrape.get("https://mikro.elfak.ni.ac.rs/predmeti/fizika/")
     time.sleep(1)
     
-    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div/div/main/article/div[2]/div/p[2]/a')
+    csText = page_to_scrape.find_element(By.XPATH, '/html/body/div[1]/div/div/main/article/div[2]/div/p[2]')
     fiz_markdown = csText.text
     csText = page_to_scrape.find_element(By.XPATH, '//*[@id="main"]')
 
