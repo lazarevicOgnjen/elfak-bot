@@ -1,1 +1,1 @@
-linku
+PRIJAVA ZA POLAGANJE KOLOKVIJUMA. Prijavljujete se popunjavanjem forme na linku. Prijave su moguće do petka, 16.1.2026. godine u podne, a kolokvijum se održava 21.1.2026. od 15 časova.
