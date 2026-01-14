@@ -42,7 +42,7 @@ async def on_ready():
 
     
     await channel.send(
-        content="@oop",
+        content="@everyone",
         view=BOTButton(),
         file=discord.File("oop.png")
     )
