@@ -42,7 +42,7 @@ async def on_ready():
 
     
     await channel.send(
-        content="@sip",
+        content="@everyone",
         view=BOTButton(),
         file=discord.File("sip.png")
     )
