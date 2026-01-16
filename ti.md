@@ -1,5 +1,5 @@
-Forum vesti -> Oktobar 3
-by Aleksandar Veljanovski - Friday, 14 November 2025, 1:52 PM
-Usmeni u ponedeljak 17.11.2025. u 14:30 u 523b.
+Forum vesti -> Lab Vezbe
+by Aleksandar Veljanovski - Friday, 16 January 2026, 10:37 AM
+Laboratorijske vežbe biće održane 27.01.2026. u 14:00 u K2.
 Permalink
 See this post in context
