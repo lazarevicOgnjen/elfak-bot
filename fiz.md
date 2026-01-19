@@ -1,1 +1,1 @@
-Pismeni deo ispita u ispitnom roku Decembar, 17.01. u 14 h, polaže se u sali A1.
+RASPORED POLAGANJA KOLOKVIJUMA PO SALAMA: Kolokvijum se održava u sredu, 21.1.2026. od 15 časova po sledećem rasporedu:
