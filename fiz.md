@@ -1,1 +1,1 @@
-Rezultati pismenog dela ispita u ispitnom roku Decembar
+Rešenja zadataka sa I kolokvijuma dostupna su ovde.
