@@ -1,1 +1,1 @@
-RASPORED POLAGANJA KOLOKVIJUMA PO SALAMA: Kolokvijum se održava u sredu, 21.1.2026. od 15 časova po sledećem rasporedu:
+Rezultati pismenog dela ispita u ispitnom roku Decembar
