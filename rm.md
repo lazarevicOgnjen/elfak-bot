@@ -1,8 +1,7 @@
-Obaveštenja -> Prijava za izlazak na kolokvijum iz Računarskih mreža -> Re: Prijava za izlazak na kolokvijum iz Računarskih mreža
-by Marija Milošević - Tuesday, 13 January 2026, 11:00 AM
-Raspored za kolokvijum po salama:
-br. ind. od 16000 do 19589: A2
-br. ind. od 19590 do 21000: K1
+Obaveštenja -> Rezultati I kolokvijuma
+by Emina Milovanović - Thursday, 22 January 2026, 11:22 AM
+U prilogu se nalaze rezultati I kolokvijuma iz predmeta Računarske mreže. Radovi se mogu pogledati u petak, 23.01.2026. u 10h.
+Predmetni nastavnik
+RM-I Kolokvijum - 2025-6.pdf
 Permalink
-Show parent
 See this post in context
