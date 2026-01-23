@@ -1,1 +1,1 @@
-Rešenja zadataka sa I kolokvijuma dostupna su ovde.
+Rezultati polaganja prvog kolokvijuma
