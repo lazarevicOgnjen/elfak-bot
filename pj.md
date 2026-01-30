@@ -1,5 +1,5 @@
-Obaveštenja -> Usmeni deo ispita - Ispitni rok Decembar 2025
-by Suzana Stojkovic - Thursday, 22 January 2026, 3:05 PM
-Usmeni deo ispita će se održati u petak 23.1.2026. sa početkom u 14:00 sati u nekoj od učionica na petom spratu.
+Obaveštenja -> Obaveštenje za studente koji su Programske jezike slušali školske 2024/25. godine
+by Suzana Stojkovic - Friday, 30 January 2026, 4:22 PM
+Studenti koji su Programske jezike slušali školske 2024/25. godine, tj. koji nisu radili laboratorijske vežbe, mogu da polažu predmet po pravilima koja su važila za tu školsku godinu još u januarskom i aprilskom roku. Oni koji ne polože ispit zaključno sa aprilskim rokom treba da se jave predmetnim asistentima da ih uključe u raspored za izradu laboratorijskih vežbi ove školske godine.
 Permalink
 See this post in context
