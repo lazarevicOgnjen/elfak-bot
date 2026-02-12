@@ -1,10 +1,7 @@
-Obaveštenja -> Obaveštenje o položenom kolokvijumu - 2025/26.
-by Natalija Stojanovic - Wednesday, 11 February 2026, 3:55 PM
-Obaveštenje
- Kolokvijum su položili svi studenti koji imaju broj poena na zadacima 10 i više i broj poena na teoriji 9.5 i više. 
-Studenti koji na kolokvijumu imaju broj poena na teoriji  9.5, a broj poena na zadacima 10 i više,  su položili kolokvijum uslovno i bez obzira na ukupan broj poena na celom ispitu mogu dobiti najviše ocenu 6. 
+Obaveštenja -> Laboratorijske vežbe - spisak studenta koji su ispunili uslov za izlazak na ispit
+by Nikola Đorđević - Thursday, 12 February 2026, 12:19 PM
+Poštovane koleginice i kolege,
 
-Predmetni nastavnici
-
+Spisak studenata koji su ispunili uslov za izlazak na ispit je objavljen na stranici predmeta i dostupan je na sledećem linku.
 Permalink
 See this post in context
