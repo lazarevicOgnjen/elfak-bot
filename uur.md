@@ -1,7 +1,8 @@
-Obaveštenja -> Laboratorijske vežbe - spisak studenta koji su ispunili uslov za izlazak na ispit
-by Nikola Đorđević - Thursday, 12 February 2026, 12:19 PM
-Poštovane koleginice i kolege,
-
-Spisak studenata koji su ispunili uslov za izlazak na ispit je objavljen na stranici predmeta i dostupan je na sledećem linku.
+Obaveštenja -> Poeni za aktivnost na predavanjima (A grupa) 2025/26. godine
+by Bratislav Predić - Friday, 13 February 2026, 8:50 AM
+Obaveštenje
+Poeni za aktivnost na predavanjima (A grupa) 2025/26. godine se nalaze u datoteci u prilogu.
+Predmetni nastavnik
+UUR 2025 grupa A.pdf
 Permalink
 See this post in context
