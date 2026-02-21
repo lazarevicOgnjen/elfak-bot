@@ -1,9 +1,9 @@
-News forum -> Rezultati Kolokvijuma T1
-by Leonid Stoimenov - Wednesday, 11 February 2026, 12:11 PM
-U prilogu su rezultati kolokvijuma T1.
-Maksimalni broj poena je bio 100, uslov za polaganje min 50.
-NOVO: Promenjen je uslov za polaganje, omogućeno je uslovno polaganje za studente koji imaju od 40 do 49 poena-
-Termin za pregled radova objavićemo sledeće nedelje. 
-BP 2026 T1.pdf
+News forum -> Rezultati kolokvijuma P2 (2025/2026)
+by Milena Frtunić Gligorijević - Saturday, 21 February 2026, 5:39 PM
+Poštovane koleginice i kolege,
+Rezultati kolokvijuma P2 nalaze se u prilogu.
+Radove sa kolokvijuma P2 možete da pogledate u ponedeljak 23.02.2026. godine u 11:30 u kancelariji M2-2.
+
+BP-P2 rezultati 2025-2026.pdf
 Permalink
 See this post in context
