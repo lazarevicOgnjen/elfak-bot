@@ -1,9 +1,10 @@
-News forum -> Rezultati kolokvijuma P2 (2025/2026)
-by Milena Frtunić Gligorijević - Saturday, 21 February 2026, 5:39 PM
+News forum -> Raspored studenata po salama - januarski ispitni rok (2024/2025)
+by Milena Frtunić Gligorijević - Monday, 23 February 2026, 11:35 AM
 Poštovane koleginice i kolege,
-Rezultati kolokvijuma P2 nalaze se u prilogu.
-Radove sa kolokvijuma P2 možete da pogledate u ponedeljak 23.02.2026. godine u 11:30 u kancelariji M2-2.
+Ispit iz predmeta Baze podataka u januarskom ispitnom roku nastavne 2025/2026 godine održaće se u sredu 25.02.2026. godine prema sledećem rasporedu:
+sala A1: studenti sa brojevima indeksa od 17293 do 20210
+sala A2: studenti sa brojevima indeksa od 20212 do 20402
+sala A3: studenti sa brojevima indeksa od 20403 do 20858
 
-BP-P2 rezultati 2025-2026.pdf
 Permalink
 See this post in context
