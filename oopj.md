@@ -1,7 +1,8 @@
-Obaveštenja -> Rezultati ispita u decembarskom ispitnom roku
-by Anđelija Đorđević - Thursday, 22 January 2026, 3:27 PM
-U prilogu se nalaze rezultati decembarskog ispitnog roka.
-Upis ocena i gledanje radova održaće se u petak, 23. januara, u 12:15h u laboratoriji 533.
-ООПрој - децембарски рок - 2026.pdf
+Obaveštenja -> Rezultati ispita u januarskom ispitnom roku
+by Anđelija Đorđević - Friday, 27 February 2026, 4:16 PM
+U prilogu se nalaze rezultati januarskog ispitnog roka.
+Termin upisa ocena i gledanja radova biće naknadno objavljen.
+
+OOProj - januar 2026.pdf
 Permalink
 See this post in context
