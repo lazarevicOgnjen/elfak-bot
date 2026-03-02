@@ -1,8 +1,5 @@
-Obaveštenja -> Rezultati ispita u januarskom ispitnom roku
-by Anđelija Đorđević - Friday, 27 February 2026, 4:16 PM
-U prilogu se nalaze rezultati januarskog ispitnog roka.
-Termin upisa ocena i gledanja radova biće naknadno objavljen.
-
-OOProj - januar 2026.pdf
+Obaveštenja -> Upis ocena i gledanje radova u januarskom ispitnom roku
+by Anđelija Đorđević - Monday, 2 March 2026, 3:56 PM
+Upis ocena i gledanje radova u januarskom ispitnom roku održaće se u četvrtak, 5. marta, u 11.30h u laboratoriji 533.
 Permalink
 See this post in context
