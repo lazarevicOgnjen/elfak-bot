@@ -1,6 +1,6 @@
-News forum -> Rezultati DM kolokvijum 2026.
-by Stefan Stankov - Saturday, 14 February 2026, 11:42 AM
-Rezultati kolokvijuma iz predmeta Diskretna matematika nalaze se u prilogu.
-Rez_kolokvijum_jan_2026.pdf
+News forum -> Rezultati DM januar 2026.
+by Stefan Stankov - Monday, 2 March 2026, 12:03 PM
+Rezultati ispita iz predmeta Diskretna matematika u januarskom ispitnom roku 2026. godine nalaze se u prilogu.
+Rez_jan_2026.pdf
 Permalink
 See this post in context
