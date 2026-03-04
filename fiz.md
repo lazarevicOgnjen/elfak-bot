@@ -1,1 +1,1 @@
-Rezultati polaganja prvog kolokvijuma
+Rezultati polaganja drugog kolokvijuma
