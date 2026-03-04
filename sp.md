@@ -1,9 +1,8 @@
-Forum novosti -> Rezultati ispita - prethodne generacije DECEMBAR 2025
-by Leonid Stoimenov - Wednesday, 21 January 2026, 12:23 PM
-Pošto niko nije položio, nema termina za upis ocena.
-Radove možete da pogledate u četvrtak, u 10:00, M2-2.  
+Forum novosti -> Rezultati ispita - JANUAR 2026
+by Leonid Stoimenov - Wednesday, 4 March 2026, 7:34 PM
+Usmeni deo ispita je u petak, 6.3.26. u 9:30, M2-1. Nema prijave za usmeni.
+Radove možete da pogledate u istom terminu.  
 
-
-SP DEC 25 upis.pdf
+SP JAN 26 novi.pdf
 Permalink
 See this post in context
