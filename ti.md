@@ -1,7 +1,5 @@
-Forum vesti -> 2026 - Januarski ispitni rok
-by Aleksandar Veljanovski - Tuesday, 3 March 2026, 12:49 PM
-Pregled radova biće održan u sredu 04.03.2026. u 12:00 u 357.
-Rezultati pisanog dela ispita je dat u prilogu.
-2026.01.Rezultati.pdf
+Forum vesti -> 2026 - Januarski ispitni rok - Usmeni
+by Aleksandar Veljanovski - Wednesday, 4 March 2026, 1:16 PM
+Usmeni je u ponedeljak 9.3. u 14h. ispred kanc. 523b
 Permalink
 See this post in context
